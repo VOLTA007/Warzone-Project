@@ -1,0 +1,146 @@
+body{
+    background-color: #200E3A;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+header{
+      border-radius: 15px;
+      background-color: rgb(10, 9, 9);
+      box-shadow: 0 15px 15px rgba(66, 148, 28, 0.932);
+
+    }
+
+    nav{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-around;
+      padding: 2%;
+      
+    }
+    .nav-bar{
+      display: flex;
+      gap: 40px;
+    }
+
+    .svg1{
+      width: 4%;
+    }
+
+    .search-bar{
+      background-color: rgba(10, 103, 243, 0.295);
+      border-radius: 10px;
+      padding: 5px;
+      outline-color: #7fffd4;
+      border-inline-color: #01f767;
+      border-width: 4px;
+    }
+
+    .but{
+      background-color: dodgerblue;
+      border-radius: 4px;
+      width: 80px;
+      border-inline-color: #01f767;
+    }
+
+.title{
+    text-align: center;
+}
+
+.twarzone{
+    color: #52D3D8;
+}
+
+.categories{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.cate{
+    margin-top: 70px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Assualt-Rifle{
+    margin-left: -40px;
+}
+
+.aa1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.a1{
+    width: 25%;
+    margin-top: -40px;
+}
+
+
+
+li{
+    padding-bottom: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .title {
+      padding: 10px;
+      flex-direction: column;
+    }
+
+    .search{
+      padding: 5px;
+      display: none;
+      
+    }
+
+    .hamburger-menu{
+     display: flex;
+     flex-direction: column;
+     cursor: pointer;
+
+    }
+    
+    .bar {
+      width: 30px;
+      height: 3px;
+      background-color: #c23737;
+      margin: 3px 0;
+
+    }
+
+    .svg1{
+      width: 8%;
+    }
+
+
+    .titles{
+
+      display: flex;
+      justify-content: center;
+    }
+
+    .cate{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .Assualt-Rifle{
+      margin-left: -10px;
+    }
+
+    .categories{
+      text-align: center;
+    }
+
+
+  }
